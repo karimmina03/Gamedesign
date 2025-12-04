@@ -1,6 +1,7 @@
-using UnityEngine;
 using Cinemachine;
 using System.Collections;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FinishLineTrigger : MonoBehaviour
 {
@@ -9,9 +10,13 @@ public class FinishLineTrigger : MonoBehaviour
     public CinemachineVirtualCamera vcam1;          // walking cam
     public CinemachineVirtualCamera firstPersonCam; // 1st person
     public Camera CarCam;         // car cam
+    public LevelTimer levelTimer;
 
     private CinemachineBrain brain;
-
+    public float finishCamDuration = 5f; // time to wait before transition
+    public string level1Transition = "Level 1 Transition";
+    public string level2Transition = "Level 2 Transition";
+    public string level3Transition = "Ending";
     private void Start()
     {
         brain = Camera.main.GetComponent<CinemachineBrain>();
@@ -19,19 +24,55 @@ public class FinishLineTrigger : MonoBehaviour
             Debug.LogError("[FinishLineTrigger] No CinemachineBrain found on Main Camera!");
     }
 
+
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Car"))
+        if (!other.CompareTag("Car")) return;
+
+        // Stop the timer and save
+        LevelTimer timer = FindObjectOfType<LevelTimer>();
+        if (timer != null)
         {
-            Debug.Log("[FinishLineTrigger] Player crossed finish line!");
+            string currentLevel = SceneManager.GetActiveScene().name;
+            timer.StopAndSaveTime(currentLevel);
+        }
+        StartCoroutine(DelayedTransition());
 
-            // Stop all gameplay cameras
-            DisableGameplayCameras();
+        Debug.Log("Level finished! Timer stopped.");
 
-            // Activate the finish cam
-            StartCoroutine(ActivateFinishCamRoutine());
+        // Start the finish cam routine and delayed transition
+        StartCoroutine(ActivateFinishCamRoutine());
+    }
+
+    private IEnumerator DelayedTransition()
+    {
+        // Wait for finish cam / birdseye view duration
+        yield return new WaitForSeconds(finishCamDuration);
+
+        // Determine current level and transition scene
+        string currentLevel = SceneManager.GetActiveScene().name;
+        string transitionScene = "";
+
+        switch (currentLevel)
+        {
+            case "Level 1":
+                transitionScene = level1Transition;
+                break;
+            case "Level 2":
+                transitionScene = level2Transition;
+                break;
+            case "Level 3":
+                transitionScene = level3Transition;
+                break;
+        }
+
+        if (!string.IsNullOrEmpty(transitionScene))
+        {
+            SceneManager.LoadScene(transitionScene);
         }
     }
+
 
     private IEnumerator ActivateFinishCamRoutine()
     {
@@ -48,37 +89,18 @@ public class FinishLineTrigger : MonoBehaviour
             finishCam.enabled = true;
             finishCam.Priority = 500;
             Debug.Log("[FinishLineTrigger] FinishCam '" + finishCam.name + "' ENABLED and priority = 500");
+
         }
 
-        // Wait a bit for CinemachineBrain to process
         yield return new WaitForSeconds(0.2f);
-
         ForceBrainUpdate();
 
-        PrintAllVcamStatus();
+        GameObject car = GameObject.FindWithTag("Car");
+        CarController cc = car.GetComponent<CarController>();
+        yield return new WaitForSeconds(3.0f);
 
-        yield return null;
-    }
-
-    private void DisableGameplayCameras()
-    {
-        if (CarCam)
-        {
-            CarCam.enabled = false;
-            Debug.Log("[FinishLineTrigger] Disabled CarCam '" + CarCam.name + "'");
-        }
-
-        if (firstPersonCam)
-        {
-            firstPersonCam.enabled = false;
-            Debug.Log("[FinishLineTrigger] Disabled FirstPersonCam '" + firstPersonCam.name + "'");
-        }
-
-        if (vcam1)
-        {
-            vcam1.enabled = false;
-            Debug.Log("[FinishLineTrigger] Disabled ThirdPersonCam '" + vcam1.name + "'");
-        }
+        cc.StopCarInstantly();
+        cc.StopCarInstantly();
     }
 
     private void ForceBrainUpdate()
@@ -91,21 +113,9 @@ public class FinishLineTrigger : MonoBehaviour
         }
     }
 
-    private void PrintAllVcamStatus()
-    {
-        CinemachineVirtualCamera[] vcams = FindObjectsOfType<CinemachineVirtualCamera>(true);
-        Debug.Log("-----------------------------------------------------");
-        Debug.Log("[FinishLineTrigger] Active VCam Status Report:");
-        foreach (var cam in vcams)
-        {
-            string state = cam.enabled ? "ENABLED" : "DISABLED";
-            Debug.Log("-> " + cam.name + ": Priority=" + cam.Priority + ", " + state + ", ActiveSelf=" + cam.gameObject.activeSelf);
-        }
+  
 
-        if (brain && brain.ActiveVirtualCamera != null)
-            Debug.Log("[FinishLineTrigger] CinemachineBrain Active Cam: " + brain.ActiveVirtualCamera.Name);
-        else
-            Debug.Log("[FinishLineTrigger] No active camera in brain!");
-        Debug.Log("-----------------------------------------------------");
-    }
+
+
+
 }

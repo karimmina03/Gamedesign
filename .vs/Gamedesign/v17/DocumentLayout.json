@@ -3,48 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\km120\\My project\\Gamedesign\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|c:\\users\\km120\\my project\\gamedesign\\assets\\scripts\\cameradebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameradebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\TNPCInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\TNPCInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\SNPCInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\SNPCInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|c:\\users\\km120\\my project\\gamedesign\\assets\\scripts\\npcinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|C:\\Users\\km120\\My project\\Gamedesign\\assets\\scripts\\endingscenequit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\endingscenequit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|C:\\Users\\km120\\My project\\Gamedesign\\assets\\scripts\\leveltransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\leveltransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|C:\\Users\\km120\\My project\\Gamedesign\\assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|C:\\Users\\km120\\My project\\Gamedesign\\assets\\scripts\\finishlinetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\finishlinetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|C:\\Users\\km120\\My project\\Gamedesign\\assets\\scripts\\cameraswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameraswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|C:\\Users\\km120\\My project\\Gamedesign\\assets\\scripts\\endingsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\endingsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|C:\\Users\\km120\\My project\\Gamedesign\\assets\\scripts\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|C:\\Users\\km120\\My project\\Gamedesign\\assets\\scripts\\speedboost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\speedboost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|C:\\Users\\km120\\My project\\Gamedesign\\assets\\unitytechnologies\\starterassets\\thirdpersoncontroller\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|solutionrelative:assets\\unitytechnologies\\starterassets\\thirdpersoncontroller\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|C:\\Users\\km120\\My project\\Gamedesign\\assets\\scripts\\hidebodyinfirstperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hidebodyinfirstperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|C:\\Users\\km120\\My project\\Gamedesign\\assets\\scripts\\carinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|C:\\Users\\km120\\My project\\Gamedesign\\assets\\scripts\\daynightcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\daynightcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|C:\\Users\\km120\\My project\\Gamedesign\\assets\\scripts\\carlights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carlights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|C:\\Users\\km120\\My project\\Gamedesign\\assets\\unitytechnologies\\starterassets\\thirdpersoncontroller\\scripts\\basicrigidbodypush.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|solutionrelative:assets\\unitytechnologies\\starterassets\\thirdpersoncontroller\\scripts\\basicrigidbodypush.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|C:\\Users\\km120\\My project\\Gamedesign\\assets\\scripts\\leveltimer.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{87C8C39D-858A-6AD2-D7B3-3074DC45F7D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\leveltimer.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,135 +51,113 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CameraDebug.cs",
-              "DocumentMoniker": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\CameraDebug.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\CameraDebug.cs",
-              "ToolTip": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\CameraDebug.cs",
-              "RelativeToolTip": "Assets\\scripts\\CameraDebug.cs",
-              "ViewState": "AgIAAJkAAAAAAAAAAAArwK8AAAAhAAAAAAAAAA==",
+              "Title": "TNPCInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\TNPCInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\TNPCInteraction.cs",
+              "ToolTip": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\TNPCInteraction.cs",
+              "RelativeToolTip": "Assets\\scripts\\TNPCInteraction.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAEAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T20:47:31.417Z",
+              "WhenOpened": "2025-12-03T21:14:41.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SNPCInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\SNPCInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\SNPCInteraction.cs",
+              "ToolTip": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\SNPCInteraction.cs",
+              "RelativeToolTip": "Assets\\scripts\\SNPCInteraction.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAkwC8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T21:13:22.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NPCInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\NPCInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\NPCInteraction.cs",
+              "ToolTip": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\NPCInteraction.cs",
+              "RelativeToolTip": "Assets\\scripts\\NPCInteraction.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwCwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T21:10:13.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EndingSceneQuit.cs",
+              "DocumentMoniker": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\EndingSceneQuit.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\EndingSceneQuit.cs",
+              "ToolTip": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\EndingSceneQuit.cs",
+              "RelativeToolTip": "Assets\\scripts\\EndingSceneQuit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T18:25:30.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenuManager.cs",
+              "DocumentMoniker": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\MenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\MenuManager.cs",
+              "ToolTip": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\MenuManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\MenuManager.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T18:10:00.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LevelTransition.cs",
+              "DocumentMoniker": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\LevelTransition.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\LevelTransition.cs",
+              "ToolTip": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\LevelTransition.cs",
+              "RelativeToolTip": "Assets\\scripts\\LevelTransition.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwDIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T16:31:22.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EndingSummary.cs",
+              "DocumentMoniker": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\EndingSummary.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\EndingSummary.cs",
+              "ToolTip": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\EndingSummary.cs",
+              "RelativeToolTip": "Assets\\scripts\\EndingSummary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T16:30:02.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LevelTimer.cs",
+              "DocumentMoniker": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\LevelTimer.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\LevelTimer.cs",
+              "ToolTip": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\LevelTimer.cs",
+              "RelativeToolTip": "Assets\\scripts\\LevelTimer.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswEQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T12:39:07.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "FinishLineTrigger.cs",
               "DocumentMoniker": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\FinishLineTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\FinishLineTrigger.cs",
               "ToolTip": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\FinishLineTrigger.cs",
               "RelativeToolTip": "Assets\\scripts\\FinishLineTrigger.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAqwHsAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAgwDgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-31T18:36:48.807Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CarController.cs",
-              "DocumentMoniker": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\CarController.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\CarController.cs",
-              "ToolTip": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\CarController.cs",
-              "RelativeToolTip": "Assets\\scripts\\CarController.cs",
-              "ViewState": "AgIAANgAAAAAAAAAAAAkwOoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T19:34:58.08Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HideBodyInFirstPerson.cs",
-              "DocumentMoniker": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\HideBodyInFirstPerson.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\HideBodyInFirstPerson.cs",
-              "ToolTip": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\HideBodyInFirstPerson.cs",
-              "RelativeToolTip": "Assets\\scripts\\HideBodyInFirstPerson.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T17:48:12.2Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "speedboost.cs",
-              "DocumentMoniker": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\speedboost.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\speedboost.cs",
-              "ToolTip": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\speedboost.cs",
-              "RelativeToolTip": "Assets\\scripts\\speedboost.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T17:14:33.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ThirdPersonController.cs",
-              "DocumentMoniker": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\UnityTechnologies\\StarterAssets\\ThirdPersonController\\Scripts\\ThirdPersonController.cs",
-              "RelativeDocumentMoniker": "Assets\\UnityTechnologies\\StarterAssets\\ThirdPersonController\\Scripts\\ThirdPersonController.cs",
-              "ToolTip": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\UnityTechnologies\\StarterAssets\\ThirdPersonController\\Scripts\\ThirdPersonController.cs",
-              "RelativeToolTip": "Assets\\UnityTechnologies\\StarterAssets\\ThirdPersonController\\Scripts\\ThirdPersonController.cs",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAuwL8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T16:21:34.184Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "cameraswitcher.cs",
-              "DocumentMoniker": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\cameraswitcher.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\cameraswitcher.cs",
-              "ToolTip": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\cameraswitcher.cs",
-              "RelativeToolTip": "Assets\\scripts\\cameraswitcher.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwC8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T16:08:16.638Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CarInteraction.cs",
-              "DocumentMoniker": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\CarInteraction.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\CarInteraction.cs",
-              "ToolTip": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\CarInteraction.cs",
-              "RelativeToolTip": "Assets\\scripts\\CarInteraction.cs",
-              "ViewState": "AgIAALgAAAAAAAAAAAAgwMEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T11:15:00.763Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DayNightCycle.cs",
-              "DocumentMoniker": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\DayNightCycle.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\DayNightCycle.cs",
-              "ToolTip": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\DayNightCycle.cs",
-              "RelativeToolTip": "Assets\\scripts\\DayNightCycle.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAkwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T21:11:30.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CarLights.cs",
-              "DocumentMoniker": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\CarLights.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\CarLights.cs",
-              "ToolTip": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\scripts\\CarLights.cs",
-              "RelativeToolTip": "Assets\\scripts\\CarLights.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T21:11:48.537Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BasicRigidBodyPush.cs",
-              "DocumentMoniker": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\UnityTechnologies\\StarterAssets\\ThirdPersonController\\Scripts\\BasicRigidBodyPush.cs",
-              "RelativeDocumentMoniker": "Assets\\UnityTechnologies\\StarterAssets\\ThirdPersonController\\Scripts\\BasicRigidBodyPush.cs",
-              "ToolTip": "C:\\Users\\km120\\My project\\Gamedesign\\Assets\\UnityTechnologies\\StarterAssets\\ThirdPersonController\\Scripts\\BasicRigidBodyPush.cs",
-              "RelativeToolTip": "Assets\\UnityTechnologies\\StarterAssets\\ThirdPersonController\\Scripts\\BasicRigidBodyPush.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T07:11:28.881Z"
             }
           ]
         }

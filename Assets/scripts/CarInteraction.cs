@@ -83,6 +83,9 @@ public class CarInteraction : MonoBehaviour
     void EnterCar()
     {
         isDriving = true;
+        LevelTimer timer = FindObjectOfType<LevelTimer>();
+        if (timer != null)
+            timer.StartTimer();
 
         // Snap player to driver seat position and rotation
         if (DriverSeat != null)
@@ -139,9 +142,11 @@ public class CarInteraction : MonoBehaviour
         }
         GameState.hasSpeedBoost = false;
     }
-    void ExitCar()
+    public void ExitCar()
     {
+
         isDriving = false;
+        string currentLevel = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
 
         // Compute where the player should appear
         Vector3 exitPosition;

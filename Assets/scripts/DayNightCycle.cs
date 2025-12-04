@@ -12,7 +12,7 @@ public class DayNightCycle : MonoBehaviour
     public Color nightAmbientColor = Color.blue * 0.05f;
     public float nightSkyboxExposure = 0.2f;
     public float daySkyboxExposure = 1.2f;
-
+    
     void Start()
     {
         if (sun == null) sun = FindObjectOfType<Light>();

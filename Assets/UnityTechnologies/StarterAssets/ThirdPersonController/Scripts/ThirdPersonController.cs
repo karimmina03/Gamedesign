@@ -148,6 +148,12 @@ namespace StarterAssets
             JumpAndGravity();
             GroundedCheck();
             Move();
+        
+            if (Input.GetKeyDown(KeyCode.O))
+            {
+                camdebug.PrintAllCameraStatus();
+            }
+        
         }
 
         private void LateUpdate()
